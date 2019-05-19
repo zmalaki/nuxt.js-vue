@@ -3,7 +3,16 @@
   <h1>
     about nuxt.js
     </h1>
-    <p>
-      </p>
+
+
+
+
       </section>
 </template>
+<script>
+export default {
+  asyncData({ env }) {
+    return { users: env.users }
+  }
+}
+</script>

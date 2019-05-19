@@ -18,6 +18,16 @@ export default {
       { rel: 'stylesheet', href:"#" }
     ]
   },
+  env: {
+    users: [
+      { id: 1, name: 'Introduction', number: 24 },
+      { id: 2, name: 'The Vue Instance', number: 23 },
+      { id: 3, name: 'Template Syntax', number: 30 },
+      { id: 4, name: 'Computed Properties and Watchers', number: 23 },
+      { id: 5, name: 'Class and Style Bindings', number: 35 },
+      { id: 6, name: 'Conditional Rendering', number: 2 }
+    ]
+  },
 
   /*
   ** Customize the progress-bar color
